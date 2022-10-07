@@ -5,10 +5,10 @@ Goal of this project is to provide a base framework that ships with all the nece
 We start you off with all the features you would typically need to build, saving you time and money so that you can focus on building your business.
 
 ### How
-[] Scaffolding
-[] User Authentication (Email + SSO)
-[] Teams 
-[] Roles and ACL
-[] Next / Tailwind ready
-[] NX Monorepo 
-[] Faster development times using Vite 
+* Scaffolding
+* User Authentication (Email + SSO)
+* Teams 
+* Roles and ACL
+* Next / Tailwind ready
+* NX Monorepo 
+* Faster development times using Vite 
