@@ -1,4 +1,4 @@
-# Baseframe - Start-up framework 
+# Baseframe - Startup framework for startups and SaaS-based businesses using Typescript and React
 
 ### What
 Goal of this project is to provide a base framework that ships with all the necessary essentials to help you jump start your next project. 
