@@ -6,10 +6,9 @@ We start you off with all the features you would typically need to build, saving
 
 ### Stack
 * Nest.js
-* Next.js
+* Next.js w/ Vite
 * Tailwind UI
-* NX
-* Vite
+* Monorepo NX
 * Docker
 
 ### Features
@@ -19,4 +18,9 @@ We start you off with all the features you would typically need to build, saving
 * Roles and ACL
 * Beautiful admin and client theme
 * NX + Vite for faster builds 
-* CI/CD Ready (GCP / AWS, Vercel / Netlify)
+* Turnkey CI/CD
+* Formik components
+* Logging w/ Sentry 
+* User tracking w/ Segment
+* Recurring payments w/ Stripe
+
