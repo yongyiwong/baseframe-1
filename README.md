@@ -17,6 +17,6 @@ We start you off with all the features you would typically need to build, saving
 * User Authentication (Email + SSO)
 * Teams 
 * Roles and ACL
-* Next / Tailwind ready
-* NX Monorepo 
-* Faster development times using Vite 
+* Beautiful admin and client theme
+* NX + Vite for faster builds 
+* CI/CD Ready (GCP / AWS, Vercel / Netlify)
