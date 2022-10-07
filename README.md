@@ -24,3 +24,8 @@ We start you off with all the features you would typically need to build out you
 * User tracking w/ Segment
 * Recurring payments w/ Stripe
 
+### Todo
+- [ ] Setup Nest.js with Vite
+- [ ] Setup Next.js with Vite
+- [ ] Setup NX Monorepo
+- [ ] Setup GCP CI/CD with CloudRun
