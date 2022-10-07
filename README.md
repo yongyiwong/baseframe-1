@@ -7,6 +7,7 @@ We start you off with all the features you would typically need to build, saving
 ### How
 [] Scaffolding
 [] User Authentication (Email + SSO)
+[] Teams 
 [] Roles and ACL
 [] Next / Tailwind ready
 [] NX Monorepo 
