@@ -12,7 +12,7 @@ We start you off with all the features you would typically need to build, saving
 * Vite
 * Docker
 
-### How
+### Features
 * Scaffolding
 * User Authentication (Email + SSO)
 * Teams 
