@@ -1,4 +1,4 @@
-# baseframe
+# Baseframe - Start-up framework 
 
 ### What
 Goal of this project is to provide a base framework that ships with all the necessary essentials to help you jump start your next project. 
