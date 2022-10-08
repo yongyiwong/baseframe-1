@@ -23,9 +23,3 @@ We start you off with all the features you would typically need to build out you
 * Logging w/ Sentry 
 * User tracking w/ Segment
 * Recurring payments w/ Stripe
-
-### Todo
-- [x] Setup Nest.js 
-- [x] Setup Next.js
-- [x] Setup monorepo
-- [ ] Setup GCP CI/CD with CloudRun
