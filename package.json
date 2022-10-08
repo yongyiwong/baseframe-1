@@ -1,0 +1,20 @@
+{
+  "name": "baseframe",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^5.6.1"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "api:start": "lerna run start:dev --scope=api",
+    "ui:start": "lerna run start --scope=ui",
+    "db:start": "docker-compose up -d",
+    "db:stop": "docker-compose kill"
+  }
+}
