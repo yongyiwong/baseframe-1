@@ -5,10 +5,10 @@ Goal of this project is to provide a base framework that ships with all the nece
 We start you off with all the features you would typically need to build out yourself, which will save you time and money so that you can focus on building your business.
 
 ### Stack
-* Nest.js
-* Next.js w/ Vite
+* Nest.js w/ Vite
+* Next.js 
 * Tailwind UI
-* Monorepo NX
+* Monorepo NX + Lerna
 * Docker
 
 ### Features
@@ -25,7 +25,7 @@ We start you off with all the features you would typically need to build out you
 * Recurring payments w/ Stripe
 
 ### Todo
-- [ ] Setup Nest.js with Vite
+- [x] Setup Nest.js with Vite
 - [ ] Setup Next.js with Vite
 - [ ] Setup NX Monorepo
 - [ ] Setup GCP CI/CD with CloudRun
