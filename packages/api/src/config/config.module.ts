@@ -5,6 +5,7 @@ import { CONFIG_OPTIONS } from './constants';
 export interface ConfigModuleOptions {
   folder: string;
   environment: string;
+  isGlobal: boolean;
 }
 
 @Module({})
@@ -20,6 +21,7 @@ export class ConfigModule {
         ConfigService,
       ],
       exports: [ConfigService],
+      global: options.isGlobal,
     };
   }
 }
