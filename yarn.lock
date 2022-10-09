@@ -2685,6 +2685,7 @@
   "version" "1.0.0"
   dependencies:
     "@nestjs/common" "9.0.1"
+    "@nestjs/config" "^2.2.0"
     "@nestjs/core" "9.0.1"
     "@nestjs/platform-express" "9.0.1"
     "@nestjs/typeorm" "^9.0.1"
@@ -8890,7 +8891,12 @@
   "resolved" "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   "version" "0.0.6"
 
-"typeorm@^0.3.0", "typeorm@^0.3.10":
+"typeorm-naming-strategies@^4.1.0":
+  "integrity" "sha512-vPekJXzZOTZrdDvTl1YoM+w+sUIfQHG4kZTpbFYoTsufyv9NIBRe4Q+PdzhEAFA2std3D9LZHEb1EjE9zhRpiQ=="
+  "resolved" "https://registry.npmjs.org/typeorm-naming-strategies/-/typeorm-naming-strategies-4.1.0.tgz"
+  "version" "4.1.0"
+
+"typeorm@^0.2.0 || ^0.3.0", "typeorm@^0.3.0", "typeorm@^0.3.10":
   "integrity" "sha512-VMKiM84EpJQ+Mz9xDIPqnfplWhyUy1d8ccaKdMY9obifxJOTFnv8GYVyPsGwG8Lk7Nb8MlttHyHWENGAhBA3WA=="
   "resolved" "https://registry.npmjs.org/typeorm/-/typeorm-0.3.10.tgz"
   "version" "0.3.10"
