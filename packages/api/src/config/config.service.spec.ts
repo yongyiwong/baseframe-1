@@ -1,6 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { ConfigService } from './config.service';
-import { CONFIG_OPTIONS } from './constants';
 
 jest.mock('dotenv');
 jest.mock('fs');
@@ -10,15 +9,7 @@ describe('ConfigService', () => {
 
   beforeEach(async () => {
     const moduleRef: TestingModule = await Test.createTestingModule({
-      providers: [
-        ConfigService,
-        {
-          provide: CONFIG_OPTIONS,
-          useValue: {
-            folder: 'config',
-          },
-        },
-      ],
+      providers: [ConfigService],
     }).compile();
 
     service = moduleRef.get<ConfigService>(ConfigService);

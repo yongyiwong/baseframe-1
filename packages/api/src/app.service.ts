@@ -5,8 +5,8 @@ import { ConfigService } from './config/config.service';
 export class AppService {
   private helloMessage: string;
 
-  constructor(configService: ConfigService) {
-    this.helloMessage = configService.get('HELLO_MESSAGE');
+  constructor(private configService: ConfigService) {
+    this.helloMessage = this.configService.get('HELLO_MESSAGE');
   }
 
   getHello(): string {
