@@ -4,6 +4,9 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { CONFIG_OPTIONS } from './constants';
 import { ConfigOptions, EnvConfig } from './interfaces';
+import * as url from 'url';
+
+const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 
 @Injectable()
 export class ConfigService {

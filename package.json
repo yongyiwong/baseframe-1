@@ -12,6 +12,7 @@
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "test": "lerna run test",
+    "api:dev": "lerna run dev --scope=api",
     "api:start": "lerna run start:dev --scope=api",
     "ui:start": "lerna run start --scope=ui",
     "db:start": "docker-compose up -d",
